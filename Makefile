@@ -2,7 +2,7 @@ CGO_ENABLED=0
 GOOS=linux
 GOARCH=amd64
 TAG?=latest
-REPO=ehazlett/docker-demo
+REPO=oats87/demo
 MEDIA_SRCS=$(shell find ui/ -type f \
 	-not -path "ui/semantic/dist/*" \
 	-not -path "ui/node_modules/*")
